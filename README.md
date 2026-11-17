@@ -51,7 +51,7 @@ Demonstrar na prática a construção de um sistema de software limpo e desacopl
 
 ## 📁 Arquitetura e Estrutura de Pastas
 
-text
+```text
 sistemaAnaliseDados/
 ├── modelo.py           # Camada de Dados: entidades Produto, Venda e RepositorioDados
 ├── processamento.py    # Camada de Negócio: filtros e algoritmos de cálculo estatístico
@@ -59,6 +59,7 @@ sistemaAnaliseDados/
 ├── main.py             # Camada de Controle: orquestração do fluxo e validação de inputs
 ├── dados_vendas.json   # Banco de dados local em JSON (criado automaticamente)
 └── README.md           # Documentação técnica do projeto
+```
 
 ---
 
@@ -97,7 +98,7 @@ Controla o ciclo de vida da aplicação:
 
 Os dados são armazenados localmente no arquivo `dados_vendas.json` seguindo a estrutura abaixo:
 
-json
+```json
 {
     "produtos": [
         {
@@ -116,6 +117,7 @@ json
         }
     ]
 }
+```
 
 ---
 
@@ -127,29 +129,29 @@ json
 
 ### Passo a passo
 1. Clone o repositório ou baixe os arquivos para sua máquina:
-   bash
+   ```bash
    git clone [https://github.com/seu-usuario/sistema-analise-dados.git](https://github.com/seu-usuario/sistema-analise-dados.git)
-   
+   ```
 2. Acesse o diretório do projeto no terminal:
-   bash
+   ```bash
    cd sistemaAnaliseDados
-   
+   ```
 3. Execute o arquivo principal:
    - **Windows (PowerShell / CMD):**
-     powershell
+     ```powershell
      py main.py
-     
+     ```
    - **Linux / macOS:**
-     bash
+     ```bash
      python3 main.py
-     
+     ```
 
 ---
 
 ## 🖥️ Exemplos de Uso e Saída
 
 ### Menu Principal
-text
+```text
 ==================================================
            SISTEMA DE ANÁLISE DE VENDAS
 ==================================================
@@ -164,24 +166,27 @@ text
 0 - Salvar e Sair
 ==================================================
 Escolha uma opção:
+```
 
 ### Exemplo de Relatório — Vendas por Categoria
-text
+```text
 ==================================================
                VENDAS POR CATEGORIA
 ==================================================
 Eletrônicos: R$ 16300.00 (86.4%)
 Periféricos: R$ 2130.00 (11.3%)
 Móveis: R$ 980.00 (5.2%)
+```
 
 ### Exemplo de Relatório — Tendência de Vendas Diárias
-text
+```text
 ==================================================
            TENDÊNCIA DE VENDAS DIÁRIAS
 ==================================================
 10/11/2026 | R$   9000.00 | ████████████████████
 11/11/2026 | R$    600.00 | █
 12/11/2026 | R$   1050.00 | ██
+```
 
 ---
 
