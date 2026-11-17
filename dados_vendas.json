@@ -1,0 +1,78 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Notebook Pro",
+            "categoria": "Eletrônicos",
+            "preco": 4500.0
+        },
+        {
+            "id": 2,
+            "nome": "Mouse Sem Fio",
+            "categoria": "Periféricos",
+            "preco": 120.0
+        },
+        {
+            "id": 3,
+            "nome": "Teclado Mecânico",
+            "categoria": "Periféricos",
+            "preco": 350.0
+        },
+        {
+            "id": 4,
+            "nome": "Monitor 27'",
+            "categoria": "Eletrônicos",
+            "preco": 1400.0
+        },
+        {
+            "id": 5,
+            "nome": "Cadeira Ergonômica",
+            "categoria": "Móveis",
+            "preco": 980.0
+        }
+    ],
+    "vendas": [
+        {
+            "id": 1,
+            "data": "2026-11-10 22:29:18",
+            "produto_id": 1,
+            "quantidade": 2
+        },
+        {
+            "id": 2,
+            "data": "2026-11-11 22:29:18",
+            "produto_id": 2,
+            "quantidade": 5
+        },
+        {
+            "id": 3,
+            "data": "2026-11-12 22:29:18",
+            "produto_id": 3,
+            "quantidade": 3
+        },
+        {
+            "id": 4,
+            "data": "2026-11-13 22:29:18",
+            "produto_id": 4,
+            "quantidade": 2
+        },
+        {
+            "id": 5,
+            "data": "2026-11-14 22:29:18",
+            "produto_id": 5,
+            "quantidade": 1
+        },
+        {
+            "id": 6,
+            "data": "2026-11-15 22:29:18",
+            "produto_id": 2,
+            "quantidade": 4
+        },
+        {
+            "id": 7,
+            "data": "2026-11-16 22:29:18",
+            "produto_id": 1,
+            "quantidade": 1
+        }
+    ]
+}
