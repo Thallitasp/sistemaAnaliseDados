@@ -203,4 +203,3 @@ O sistema foi projetado para impedir falhas inesperadas durante o uso:
 ## 👩‍💻 Autoria
 
 Desenvolvido por **Thallita da Silva Pedreira**  
-Curso de **Análise e Desenvolvimento de Sistemas** — 2026
